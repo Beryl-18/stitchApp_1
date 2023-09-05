@@ -29,9 +29,9 @@ export default async function home() {
                 currentUserId = {user.id}
                 parentId = {post.parentId}
                 content = {post.text}
-                // author = {post.author}
+                // author = {post.author} - can't follow the issue - max call stack size exceeded
                 community = {post.community}
-                // createdAt = {post.createdAt}
+                // createdAt = {post.createdAt} - need to figure out a way to retrieve the date as an array
                 comments = {post.children} 
               />
               
